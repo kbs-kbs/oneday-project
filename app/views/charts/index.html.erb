@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mermaid Chart Generator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .input-section {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 15px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 1em;
+      font-family: inherit;
+      resize: vertical;
+      transition: border-color 0.3s;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .chart-section {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loading {
+      text-align: center;
+      color: #667eea;
+      font-size: 1.2em;
+    }
+
+    .error {
+      background: #fee;
+      border: 2px solid #fcc;
+      border-radius: 8px;
+      padding: 15px;
+      color: #c33;
+      margin-bottom: 20px;
+    }
+
+    #chartDisplay {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .example-prompts {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 8px;
+    }
+
+    .example-prompts h3 {
+      color: #667eea;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+
+    .example-prompts ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .example-prompts li {
+      padding: 8px;
+      margin: 5px 0;
+      background: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .example-prompts li:hover {
+      background: #e9ecef;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mermaid Architecture Diagram Generator</h1>
+
+    <div class="input-section">
+      <div class="form-group">
+        <label for="prompt">프로젝트 설명을 입력하세요</label>
+        <textarea
+          id="prompt"
+          rows="5"
+          placeholder="예: 전자상거래 웹사이트의 아키텍처를 그려줘. 프론트엔드, API 서버, 데이터베이스, 캐시 서버를 포함해서."
+        ></textarea>
+      </div>
+
+      <button id="generateBtn" onclick="generateChart()">차트 생성하기</button>
+
+      <div class="example-prompts">
+        <h3>예시 프롬프트:</h3>
+        <ul>
+          <li onclick="setPrompt('실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등')">
+            웹+AI 기술 스택 예시
+          </li>
+          <li onclick="setPrompt('실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘.')">
+            임베디드/IoT 아키텍처 예시
+          </li>
+          <li onclick="setPrompt('모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.')">
+            모바일 앱/백엔드 예시
+          </li>
+          <li onclick="setPrompt('AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘.')">
+            AI 서비스·검색·ML 아키텍처
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="errorDiv" style="display: none;" class="error"></div>
+
+    <div class="chart-section" id="chartSection">
+      <div id="chartDisplay">
+        <p style="color: #999; text-align: center;">
+          위의 프롬프트 입력창에 원하는 차트 설명을 입력하고 '차트 생성하기' 버튼을 클릭하세요.
+        </p>
+      </div>
+    </div>
+    <div id="chartEditList"></div>
+  </div>
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    window.mermaid = mermaid;
+  </script>
+
+  <script>
+    function setPrompt(text) {
+      document.getElementById('prompt').value = text;
+    }
+
+    async function generateChart() {
+      const prompt = document.getElementById('prompt').value.trim();
+      const errorDiv = document.getElementById('errorDiv');
+      const chartDisplay = document.getElementById('chartDisplay');
+      const generateBtn = document.getElementById('generateBtn');
+
+      errorDiv.style.display = 'none';
+
+      if (!prompt) {
+        errorDiv.textContent = '프롬프트를 입력해주세요.';
+        errorDiv.style.display = 'block';
+        return;
+      }
+
+      generateBtn.disabled = true;
+      chartDisplay.innerHTML = '<div class="loading">차트 생성 중...</div>';
+
+      try {
+        const response = await fetch('/charts/generate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-Token': document.querySelector('[name="csrf-token"]').content
+          },
+          body: JSON.stringify({ prompt: prompt })
+        });
+
+        const data = await response.json();
+
+        console.log(data.mermaid_code);
+
+        if (!response.ok) {
+          throw new Error(data.error || 'Failed to generate chart');
+        }
+
+        // Clear the display
+        chartDisplay.innerHTML = '';
+
+        // Create a div for Mermaid
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = data.mermaid_code;
+        chartDisplay.appendChild(mermaidDiv);
+
+        // Render the Mermaid diagram
+        await window.mermaid.run({
+          nodes: [mermaidDiv]
+        });
+
+        // [추가] Mermaid 코드 파싱해서 에디터 UI 보여주기
+        const parsed = parseMermaidArchitectureBeta(data.mermaid_code);
+        if(parsed) renderEditableList(parsed);
+
+      } catch (error) {
+        console.error('Error:', error);
+        errorDiv.textContent = `오류: ${error.message}`;
+        errorDiv.style.display = 'block';
+        chartDisplay.innerHTML = '<p style="color: #999; text-align: center;">차트를 생성할 수 없습니다.</p>';
+      } finally {
+        generateBtn.disabled = false;
+      }
+    }
+
+    async function regenerateChart(data) {
+      const errorDiv = document.getElementById('errorDiv');
+      const chartDisplay = document.getElementById('chartDisplay');
+      errorDiv.style.display = 'none';
+      regenerateBtn.disabled = true;
+      chartDisplay.innerHTML = '<div class="loading">차트 생성 중...</div>';
+
+      try {
+        chartDisplay.innerHTML = '';
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = toMermaidArchitectureBeta(data);
+        chartDisplay.appendChild(mermaidDiv);
+
+        await window.mermaid.run({
+          nodes: [mermaidDiv]
+        });
+      } catch (error) {
+        console.error('Error:', error);
+        errorDiv.textContent = `오류: ${error.message}`;
+        errorDiv.style.display = 'block';
+        chartDisplay.innerHTML = '<p style="color: #999; text-align: center;">차트를 생성할 수 없습니다.</p>';
+      }
+    }
+
+    document.getElementById('prompt').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && e.ctrlKey) {
+        generateChart();
+      }
+    });
+
+    function parseMermaidArchitectureBeta(code) {
+      const lines = code.split(/\r?\n/).map(l => l.trim()).filter(l => l);
+      if (!lines[0]?.startsWith("architecture-beta")) return null;
+      const groups = [];
+      let currentGroup = null;
+      for (const l of lines.slice(1)) {
+        if (l.startsWith("group ")) {
+          const m = l.match(/^group ([^(]+)\(([^)]+)\)\[([^\]]+)\]/);
+          if (m) {
+            currentGroup = {
+              key: m[1].trim(),
+              icon: m[2].trim(),
+              label: m[3].trim(),
+              services: []
+            };
+            groups.push(currentGroup);
+          }
+        } else if (l.startsWith("service ") && currentGroup) {
+          const m = l.match(/^service ([^(]+)\(([^)]+)\)\[([^\]]+)\] in ([^\s]+)/);
+          if (m) {
+            currentGroup.services.push({
+              key: m[1].trim(),
+              icon: m[2].trim(),
+              label: m[3].trim(),
+              group: m[4].trim()
+            });
+          }
+        }
+      }
+      // 연결문장은 전역 리스트에서 추출
+      const connections = lines.filter(l => l.match(/--/));
+      return { groups, connections };
+    }
+    
+    function toMermaidArchitectureBeta(data) {
+      let out = ['architecture-beta'];
+      data.groups.forEach(g => {
+        out.push(`    group ${g.key}(${g.icon})[${g.label}]`);
+        g.services.forEach(s => {
+          out.push(`        service ${s.key}(${s.icon})[${s.label}] in ${s.group}`);
+        });
+      });
+      data.connections.forEach(c => out.push(`    ${c}`));
+      console.log(out.join('\n\n'));
+      return out.join('\n\n');
+    }
+    
+    function renderEditableList(data) {
+      const root = document.getElementById('chartEditList');
+      if (!root) return;
+      root.innerHTML = '';
+      data.groups.forEach((g, gi) => {
+        const groupDiv = document.createElement('div');
+        groupDiv.innerHTML = `<b>Group:</b> <input value="${g.label}" data-type="group-label" data-gi="${gi}" style="font-weight:bold"> <span style="color:#999">(${g.icon})</span>`;
+        groupDiv.style.margin = "8px 0 4px 0";
+        root.appendChild(groupDiv);
+        g.services.forEach((s, si) => {
+          const div = document.createElement('div');
+          div.style.marginLeft = "2em";
+          div.innerHTML = `↳ <input value="${s.label}" data-type="service-label" data-gi="${gi}" data-si="${si}"> <span style="color:#999">(${s.key}, ${s.icon})</span>`;
+          root.appendChild(div);
+        });
+      });
+      // 이벤트 바인딩
+      root.querySelectorAll('input').forEach(inp => {
+        inp.addEventListener('change', function(e){
+          const gi = +this.dataset.gi, si = +this.dataset.si;
+          if (this.dataset.type === 'group-label') {
+            data.groups[gi].label = this.value;
+          } else if (this.dataset.type === 'service-label') {
+            data.groups[gi].services[si].label = this.value;
+          }
+          regenerateChart(data);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

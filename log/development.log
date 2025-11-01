@@ -1,0 +1,996 @@
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:31:42 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 3.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | GC: 0.0ms)
+Completed 200 OK in 203ms (Views: 49.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:31:57 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해.", "chart" => {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해."}}
+Completed 500 Internal Server Error in 6ms (Views: 0.5ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:33:46 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 157.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 158.4ms | GC: 0.0ms)
+Completed 200 OK in 165ms (Views: 160.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:33:53 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해.", "chart" => {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해."}}
+Completed 500 Internal Server Error in 4ms (Views: 0.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:33:55 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 6ms (Views: 3.1ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:34:16 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | GC: 0.0ms)
+Completed 200 OK in 83ms (Views: 33.0ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:34:25 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해.", "chart" => {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해."}}
+Completed 500 Internal Server Error in 280ms (Views: 0.2ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:35:36 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 18.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | GC: 0.0ms)
+Completed 200 OK in 90ms (Views: 41.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:35:39 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해.", "chart" => {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해."}}
+Completed 500 Internal Server Error in 282ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:39:50 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | GC: 0.0ms)
+Completed 200 OK in 88ms (Views: 39.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:39:52 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해.", "chart" => {"prompt" => "전자상거래 웹사이트의 시스템 아키텍처를 그려줘. React, Node.js, PostgreSQL, Redis를 사용해."}}
+Completed 200 OK in 3050ms (Views: 0.7ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-27 16:45:14 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | GC: 0.0ms)
+Completed 200 OK in 84ms (Views: 31.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-27 16:46:25 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해. DB, 서버 등 뭘 쓰면 될지는 알아서 정해줘", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해. DB, 서버 등 뭘 쓰면 될지는 알아서 정해줘"}}
+Completed 200 OK in 5054ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:01:49 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 7.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | GC: 0.0ms)
+Completed 200 OK in 111ms (Views: 39.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:01:56 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 5051ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:08:17 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 3.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | GC: 0.0ms)
+Completed 200 OK in 74ms (Views: 23.6ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:08:22 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 3219ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:11:12 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 18.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | GC: 0.0ms)
+Completed 200 OK in 92ms (Views: 41.5ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:11:15 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 3530ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:15:07 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | GC: 0.0ms)
+Completed 200 OK in 83ms (Views: 30.5ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:15:10 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 2447ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:18:14 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | GC: 0.0ms)
+Completed 200 OK in 83ms (Views: 37.9ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:18:17 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 3213ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:22:09 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | GC: 0.0ms)
+Completed 200 OK in 87ms (Views: 36.7ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:22:14 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해.", "chart" => {"prompt" => "전자상거래 웹사이트의 아키텍처를 그려줘. 클라우드에 웹 서버, API 서버, 데이터베이스, 캐시 서버를 배치해."}}
+Completed 200 OK in 3615ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:38:06 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | GC: 0.0ms)
+Completed 200 OK in 82ms (Views: 35.5ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:40:59 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | GC: 0.0ms)
+Completed 200 OK in 85ms (Views: 37.8ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:41:13 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 3974ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:44:23 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.2ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | GC: 0.2ms)
+Completed 200 OK in 82ms (Views: 28.6ms | GC: 0.2ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:44:28 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘.", "chart" => {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘."}}
+Completed 200 OK in 6568ms (Views: 0.2ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:45:05 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 3.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:45:11 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 10399ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:50:58 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | GC: 0.0ms)
+Completed 200 OK in 79ms (Views: 27.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:51:15 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 4183ms (Views: 0.2ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:58:05 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 14.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | GC: 0.0ms)
+Completed 200 OK in 89ms (Views: 35.6ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:58:10 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 500 Internal Server Error in 8516ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 07:59:17 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | GC: 0.0ms)
+Completed 200 OK in 87ms (Views: 27.5ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:59:24 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘.", "chart" => {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘."}}
+Completed 200 OK in 8131ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 07:59:57 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 3575ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 08:19:10 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | GC: 0.0ms)
+Completed 200 OK in 86ms (Views: 31.4ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 08:19:13 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 13692ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 09:45:36 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 18.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | GC: 0.0ms)
+Completed 200 OK in 143ms (Views: 61.8ms | GC: 0.2ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 09:45:51 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 8605ms (Views: 0.2ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-28 09:46:06 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-10-28 09:46:10 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 4.0ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-28 09:46:10 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 09:46:19 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 4593ms (Views: 0.1ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 09:51:12 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | GC: 0.0ms)
+Completed 200 OK in 81ms (Views: 34.2ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-28 09:51:13 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-10-28 09:51:37 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 6.8ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-28 09:51:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 09:51:55 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 6996ms (Views: 0.3ms | GC: 0.2ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 10:36:17 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | GC: 0.0ms)
+Completed 200 OK in 83ms (Views: 29.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 10:36:21 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 8863ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 10:50:55 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 14.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | GC: 0.0ms)
+Completed 200 OK in 93ms (Views: 38.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 10:50:58 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 9333ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 11:04:42 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | GC: 0.0ms)
+Completed 200 OK in 89ms (Views: 33.8ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 11:04:45 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 10042ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 11:06:28 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘.", "chart" => {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘."}}
+Completed 200 OK in 5413ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 11:29:16 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | GC: 0.0ms)
+Completed 200 OK in 79ms (Views: 30.4ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 11:29:20 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 2888ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-28 17:20:07 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 9.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | GC: 0.0ms)
+Completed 200 OK in 134ms (Views: 68.7ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-28 17:20:11 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 3518ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 09:56:22 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 6.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | GC: 0.0ms)
+Completed 200 OK in 108ms (Views: 31.9ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 09:56:24 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 6830ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:00:43 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 18.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | GC: 0.0ms)
+Completed 200 OK in 131ms (Views: 45.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:00:46 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 2963ms (Views: 0.5ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:01:55 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 3.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:01:57 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2761ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:02:11 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘.", "chart" => {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘."}}
+Completed 200 OK in 5075ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:16:00 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 9.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | GC: 0.0ms)
+Completed 200 OK in 78ms (Views: 30.3ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:16:07 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 4.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:16:11 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 7457ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:18:06 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘.", "chart" => {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘."}}
+Completed 200 OK in 3833ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:18:19 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘.", "chart" => {"prompt" => "AI 서비스의 in-context search, RAG, 벡터 DB, LLM API 각각을 실제 오픈소스/클라우드 기반 기술명으로 구성해서 그려줘."}}
+Completed 200 OK in 5351ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:19:47 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2435ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:40:31 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 15.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | GC: 0.0ms)
+Completed 200 OK in 110ms (Views: 41.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:40:33 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 6935ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:41:29 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 3.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:41:31 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 4313ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:45:17 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | GC: 0.0ms)
+Completed 200 OK in 86ms (Views: 30.4ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:45:21 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2827ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 10:46:58 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 7ms (Views: 3.3ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 10:47:01 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 10:47:08 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 3384ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:10:29 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 3.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | GC: 0.0ms)
+Completed 200 OK in 79ms (Views: 29.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:10:32 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등", "chart" => {"prompt" => "실제 서비스에 쓰이는 기술명을 사용해서 웹/AI 서비스 전체 아키텍처를 그려줘. 예) React, FastAPI, SQLite, Pinecone, Playwright 등"}}
+Completed 200 OK in 2929ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:10:36 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 4352ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:10:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:12:45 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 18.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | GC: 0.0ms)
+Completed 200 OK in 94ms (Views: 42.6ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:12:45 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:12:48 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 3450ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:12:58 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:18:38 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | GC: 0.0ms)
+Completed 200 OK in 88ms (Views: 29.7ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:18:45 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 3.2ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:19:18 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | GC: 0.0ms)
+Completed 200 OK in 79ms (Views: 31.2ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:20:06 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | GC: 0.0ms)
+Completed 200 OK in 87ms (Views: 35.2ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:24:21 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | GC: 0.0ms)
+Completed 200 OK in 88ms (Views: 37.8ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:24:25 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 3161ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:25:50 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | GC: 0.0ms)
+Completed 200 OK in 80ms (Views: 33.7ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:25:52 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2871ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:30:22 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | GC: 0.0ms)
+Completed 200 OK in 78ms (Views: 34.7ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:30:26 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2816ms (Views: 0.3ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:30:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:36:27 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | GC: 0.0ms)
+Completed 200 OK in 85ms (Views: 32.8ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:36:33 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:36:37 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘.", "chart" => {"prompt" => "실제 하드웨어와 소프트웨어 구성을 구체적으로, IoT 센서(ESP32), 게이트웨이, AWS IoT 클라우드, Lambda, DynamoDB 등을 이용한 임베디드/IoT 아키텍처를 그려줘."}}
+Completed 200 OK in 4705ms (Views: 0.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:37:14 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 4429ms (Views: 0.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:38:38 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 15.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | GC: 0.0ms)
+Completed 200 OK in 101ms (Views: 38.1ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:38:38 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:38:40 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2412ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:40:20 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 13.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | GC: 0.0ms)
+Completed 200 OK in 81ms (Views: 32.1ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:40:22 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2496ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:40:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:43:53 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | GC: 0.0ms)
+Completed 200 OK in 82ms (Views: 33.2ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:43:56 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2795ms (Views: 0.4ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:44:09 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/" for 127.0.0.1 at 2025-10-29 11:44:41 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 5.7ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 11:44:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 11:44:44 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2349ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 12:01:03 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 10.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | GC: 0.0ms)
+Completed 200 OK in 82ms (Views: 33.0ms | GC: 0.0ms)
+
+
+Started POST "/charts/generate" for 127.0.0.1 at 2025-10-29 12:01:06 +0900
+Processing by ChartsController#generate as */*
+  Parameters: {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘.", "chart" => {"prompt" => "모바일 앱에서 자주 사용하는 기술(React Native, Spring Boot, MariaDB 등)로 구성된 백엔드/앱 통합 아키텍처를 그려줘."}}
+Completed 200 OK in 2993ms (Views: 0.4ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 12:15:45 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | GC: 0.0ms)
+Completed 200 OK in 88ms (Views: 30.6ms | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-10-29 12:15:51 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 4.1ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 12:17:24 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 12.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | GC: 0.0ms)
+Completed 200 OK in 84ms (Views: 28.7ms | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-10-29 12:17:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+[dotenv] Set [36mPERPLEXITY_API_KEY[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2025-10-29 12:19:42 +0900
+Processing by ChartsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering charts/index.html.erb within layouts/application
+  Rendered charts/index.html.erb within layouts/application (Duration: 11.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | GC: 0.0ms)
+Completed 200 OK in 85ms (Views: 32.2ms | GC: 0.0ms)
+
+
